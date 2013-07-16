@@ -55,6 +55,8 @@ CoffeeScript:
 #= require peek/views/rblineprof
 ```
 
+To profile a page request, add `peek=true` and `lineprofiler=true` to the URL of your request. 
+
 ## Integration with pygments.rb
 
 By default peek-rblineprof renders the code of each file in plain text with no
